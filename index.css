@@ -1,0 +1,17 @@
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+  border-collapse: collapse;
+}
+
+th, td { 
+  border: 1px solid gray; 
+  padding: 5px;
+}
+
+tr {
+  background-color: white;
+}
+
+tbody tr:nth-child(2n + 1) {
+  background-color: rgb(158, 158, 158);
+}
